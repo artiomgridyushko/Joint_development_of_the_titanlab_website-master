@@ -1,0 +1,372 @@
+{
+  "eSigs": [
+    {
+      "id": 1,
+      "img": "./images/WAKA1.png",
+      "title": "WAKA SMASH 6000",
+      "price": 650,
+      "productOptionImage": ["./images/ilumma.jpg", "./images/ilumma.jpg", "./images/ilumma.jpg"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Арбуз" },
+        { "id": 2, "type": "Вишня" },
+        { "id": 3, "type": "Банан Кокос" },
+        { "id": 4, "type": "Ананас Дыня" },
+        { "id": 4, "type": "Алоэ Виноград" },
+        { "id": 4, "type": "Личи Апельсин" },
+        { "id": 4, "type": "Яблочная волна" },
+        { "id": 4, "type": "Клубника Манго" },
+        { "id": 4, "type": "Вишневый лайм " },
+        { "id": 4, "type": "Манго Дыня Алоэ" },
+        { "id": 4, "type": "Ежевичная волна" },
+        { "id": 4, "type": "Клубника Виноград" }
+      ],
+      "moreDetails": "<span>WAKA SMASH 6000</span>  Создана на основе технологии MESH второго поколения для ультра-насыщенного и мягкого вкуса.<p> "
+    },
+    {
+      "id": 2,
+      "img": "./images/sopro.png",
+      "title": "WAKA SoPRO 7000",
+      "price": 600,
+      "productOptionImage": ["./images/sopro.png", "./images/sopro.png", "./images/sopro.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Арбуз" },
+        { "id": 2, "type": "Гранат" },
+        { "id": 3, "type": "Клубника" },
+        { "id": 4, "type": "Лимон Мята" },
+        { "id": 5, "type": "Черника Малина" },
+        { "id": 6, "type": "Манго Арбуз" },
+        { "id": 7, "type": "Ежевичная волна" },
+        { "id": 8, "type": "Алоэ Виноград" },
+        { "id": 9, "type": "Фруктовая кислинка" }
+      ],
+
+      "moreDetails": "<span>WAKA SoPRO 7000</span>  Создана на основе технологии MESH второго поколения для ультра-насыщенного и мягкого вкуса.<p> "
+    },
+    {
+      "id": 3,
+      "img": "./images/sopro1000.png",
+      "title": "WAKA SoPRO 10000",
+      "price": 800,
+      "productOptionImage": ["./images/sopro1000.png", "./images/sopro1000.png", "./images/sopro1000.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Арбуз" },
+        { "id": 2, "type": "Вишня" },
+        { "id": 3, "type": "Малина Арбуз" },
+        { "id": 4, "type": "Клубника Киви" },
+        { "id": 5, "type": "Яблочная волна" },
+        { "id": 6, "type": "Клубника Банан" },
+        { "id": 7, "type": "Черника Малина" },
+        { "id": 8, "type": "Виноград Яблоко" },
+        { "id": 9, "type": "Киви Маракуйя Гуава" },
+        { "id": 10, "type": "Фруктовые пластинки" }
+      ],
+      "moreDetails": "<span>WAKA SoPRO 10000</span> Создана на основе технологии MESH второго поколения для ультра-насыщенного и мягкого вкуса.<p> "
+    },
+    {
+      "id": 4,
+      "img": "./images/SMPOOla.png",
+      "title": "SMPO Ola",
+      "price": 380,
+      "productOptionImage": ["./images/SMPOOla.png", "./images/SMPOOla.png", "./images/SMPOOla.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "SMPO Ola" }
+      ],
+      "moreDetails": "<span>SMPO Ola</span> - это электронная сигарета, которая предлагает множество возможностей и преимуществ. Она оснащена технологией, благодаря которой взаимозаменяема с картреджами для POD-системы Vaporesso.<p> "
+    },
+    {
+      "id": 5,
+      "img": "./images/DLTADL6000.png",
+      "title": "DLTA DL6000",
+      "price": 520,
+      "productOptionImage": ["./images/DLTADL6000.png", "./images/DLTADL6000.png", "./images/DLTADL6000.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "DLTA DL6000" }
+      ],
+      "moreDetails": "<span>SMPO Ola</span>а 6000 затяжек с высококачественными ароматизаторами и мощным испарителем на сетке. Каждый девайс наполнен 15 мл жидкости, которого хватает на длительный срок. После каждой перезарядки вкус не пропадает до полного окончания жидкости.<p> "
+    },
+    {
+      "id": 6,
+      "img": "./images/DLTADL8000.png",
+      "title": "DLTA DL8000",
+      "price": 840,
+      "productOptionImage": ["./images/DLTADL8000.png", "./images/DLTADL8000.png", "./images/DLTADL8000.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "DLTA DL8000" }
+      ],
+      "moreDetails": "<span>DLTA DL8000</span> на 8000 затяжек с высококачественными ароматизаторами и мощным испарителем на сетке. В каждом девайсе 18 мл жидкости, которой хватает на достаточно продолжительный срок. Вкус не пропадает до полного окончания жидкости.<p> "
+    },
+    {
+      "id": 7,
+      "img": "./images/VientoVT6000.png",
+      "title": "Viento VT 6000",
+      "price": 670,
+      "productOptionImage": ["./images/DLTADL8000.png", "./images/VientoVT6000.png", "./images/VientoVT6000.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Viento VT 6000" }
+      ],
+      "moreDetails": "<span>Viento VT 6000</span> - бренд одноразовых электронных сигарет, суббренд Fatto, созданный в коллаборации с испанской компаниейя Viento. Каждый девайс идет вместе с удобным чехлом, который поможет сохранить чистоту устройства.<p> "
+    },
+    {
+      "id": 8,
+      "img": "./images/FummoTarget.jpg",
+      "title": "Fummo Target",
+      "price": 620,
+      "productOptionImage": ["./images/FummoTarget.jpg", "./images/FummoTarget.jpg", "./images/FummoTarget.jpg"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Fummo Target" }
+      ],
+      "moreDetails": "<span>Fummo Target</span> электронные сигареты на 2500 затяжек, обладающие настоящими 2% крепости и удобным использованием.<p> "
+    },
+    {
+      "id": 9,
+      "img": "./images/FummoSpirit.jpg",
+      "title": "Fummo Spirit",
+      "price": 945,
+      "productOptionImage": ["./images/FummoSpirit.jpg", "./images/FummoSpirit.jpg", "./images/FummoSpirit.jpg"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Fummo Spirit" }
+      ],
+      "moreDetails": "<span>Fummo Spirit</span> имеет компактный размер и радует приятным дизайном. Данный девайс рассчитан на 7000 затяжек, что позволит дольше наслаждаться использованием.<p> "
+    },
+    {
+      "id": 10,
+      "img": "./images/FummoIndic.png",
+      "title": "Fummo Indic",
+      "price": 1065,
+      "productOptionImage": ["./images/FummoIndic.png", "./images/FummoIndic.png", "./images/FummoIndic.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Fummo Indic" }
+      ],
+      "moreDetails": "<span>Fummo Indic</span> электронные сигареты на 2500 затяжек, обладающие настоящими 2% крепости и удобным использованием.<p> "
+    },
+    {
+      "id": 11,
+      "img": "./images/WAKASOLO1800.png",
+      "title": "WAKA SOLO 1800",
+      "price": 552,
+      "productOptionImage": ["./images/WAKASOLO1800.png", "./images/WAKASOLO1800.png", "./images/WAKASOLO1800.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Вишня Лайм" },
+        { "id": 2, "type": "Ананас Маракуйя" },
+        { "id": 3, "type": "Клубника Банан" },
+        { "id": 4, "type": "Клубника Манго" },
+        { "id": 5, "type": "Манго Апельсин" },
+        { "id": 6, "type": "Лимонный пирог" },
+        { "id": 7, "type": "Красная шипучка" },
+        { "id": 8, "type": "Клубника Виноград" },
+        { "id": 9, "type": "Черника Смородина" },
+        { "id": 10, "type": "Фруктовые пластинки" }
+      ],
+      "moreDetails": "<span>WAKA SOLO 1800</span> это электронная сигарета рассчитанная на 1800 затяжек. Создана на основе технологии MESH второго поколения для ультра-насыщенного и мягкого вкуса.<p> "
+    },
+    {
+      "id": 12,
+      "img": "./images/WAKASLAM2300.png",
+      "title": "WAKA SLAM 2300",
+      "price": 673,
+      "productOptionImage": ["./images/WAKASLAM2300.png", "./images/WAKASLAM2300.png", "./images/WAKASLAM2300.png"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Панч" },
+        { "id": 2, "type": "Банан Кокос" },
+        { "id": 3, "type": "Свежая Гуава" },
+        { "id": 4, "type": "Ананас Дыня" },
+        { "id": 5, "type": "Малина Арбуз" },
+        { "id": 6, "type": "Гранат Яблоко" },
+        { "id": 7, "type": "Красная шипучка" },
+        { "id": 8, "type": "Манго Дыня Алоэ" },
+        { "id": 9, "type": "Апельсин Грейпфрут" },
+        { "id": 10, "type": "Фруктовые пластинки" }
+      ],
+      "moreDetails": "<span>WAKA SLAM 2300</span> это электронная сигарета рассчитанная на 2300 затяжек. Создана на основе технологии MESH второго поколения для ультра-насыщенного и мягкого вкуса.<p> "
+    }
+  ],
+  "chewingGum": [
+    {
+      "id": 1,
+      "img": "./images/odens.jpg",
+      "title": "ODENS",
+      "price": 485,
+      "productOptionImage": ["./images/odens.jpg", "./images/odens.jpg", "./images/odens.jpg"],
+      "typeOfProduct": [
+        { "id": 1, "type": "COLD DRY, 13 ГР" },
+        { "id": 2, "type": "MINI" },
+        { "id": 3, "type": "SLIM" },
+        { "id": 4, "type": "COLD DRY, 16 ГР" },
+        { "id": 5, "type": "COLA, 16 ГР" },
+        { "id": 6, "type": "DOUBLE MINT, 16 ГР" }
+      ],
+      "moreDetails": "<span>ODENS</span> — это достаточно крепкий табачный продукт .Самый слабый продукт серии имеет крепость 24 мг/г, а самые крепкие —43 мг/г. Поэтому такой жевательный табак подходит только для опытных ценителей снюса.<p><span> ODENS</span> является эталоном качества среди крепкого жевательного табака. Бренд тщательно следит за качеством своейпродукции: только сырье высокого сорта отправляется в производство,а обработка проходит по шведским стандартам.></p><p> <span> ODENS</span> создана для любителей качества. Яркий вкус и приятные ощущения во время использования- лишь несколькопреимуществ, благодаря которым продукт стал на столько популярен.</p> "
+
+  },
+    {
+      "id": 2,
+      "img": "./images/siberia.jpg",
+      "title": "SIBERIA",
+      "price": 510,
+      "productOptionImage": ["./images/siberia.jpg", "./images/siberia.jpg", "./images/siberia.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "13гр" },
+        { "id": 2, "type": "16гр" },
+        { "id": 3, "type": "SLIM" }
+      ],
+      "moreDetails": "<span>SAIBERIA</span> — это достаточно крепкий табачный продукт .Самый слабый продукт серии имеет крепость 24 мг/г, а самые крепкие —43 мг/г. Поэтому такой жевательный табак подходит только для опытных ценителей снюса.<p><span> SAIBERA</span> является эталоном качества среди крепкого жевательного табака. Бренд тщательно следит за качеством своейпродукции: только сырье высокого сорта отправляется в производство,а обработка проходит по шведским стандартам.></p><p> <span> SIBERIA</span> создана для любителей качества. Яркий вкус и приятные ощущения во время использования- лишь несколькопреимуществ, благодаря которым продукт стал на столько популярен.</p> "
+    },
+    {
+      "id": 3,
+      "img": "./images/FISHKA.jpg",
+      "title": "FISHKA",
+      "price": 470,
+      "productOptionImage": ["./images/FISHKA.jpg", "./images/FISHKA.jpg", "./images/FISHKA.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "MEDIUM" },
+        { "id": 2, "type": "STRONG" },
+        { "id": 3, "type": "BUBLE GUM" },
+        { "id": 4, "type": "COLA" }
+      ],
+      "moreDetails": "<span>FISHKA</span> у каждого своя, именно поэтому любителям хорошего и качественного наслаждения так нравится данный бренд.<p> "
+    },
+    {
+      "id": 4,
+      "img": "./images/ARQ.jpg",
+      "title": "ARQ",
+      "price": 455,
+      "productOptionImage": ["./images/ARQ.jpg", "./images/ARQ.jpg", "./images/ARQ.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "Черная вишня" },
+        { "id": 2, "type": "Ддяная кола" },
+        { "id": 3, "type": "Ваниликая мята" },
+        { "id": 4, "type": "Леь" },
+        { "id": 5, "type": "Манго-нектарин" },
+        { "id": 6, "type": "Малина" },
+        { "id": 7, "type": "Энергетик" },
+        { "id": 8, "type": "Cold-Dry" },
+        { "id": 9, "type": "Персик-манго" }
+      ],
+      "moreDetails": "<span>ARQ</span> — это достаточно крепкий табачный продукт .Самый слабый продукт серии имеет крепость 24 мг/г, а самые крепкие —43 мг/г. Поэтому такой жевательный табак подходит только для опытных ценителей снюса.<p> "
+    },
+    {
+      "id": 5,
+      "img": "./images/HUSCKY.jpg",
+      "title": "HUSKY",
+      "price": 470,
+      "productOptionImage": ["./images/HUSCKY.jpg", "./images/HUSCKY.jpg", "./images/HUSCKY.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "МЕНТОЛ" },
+        { "id": 2, "type": "СВЕЖАЯ МЯТА" },
+        { "id": 3, "type": "СЛАДКАЯ МЯТА" },
+        { "id": 4, "type": "ПЕРЕЧНАЯ МЯТА" }
+      ],
+      "moreDetails": "<span>Husky</span> пользуется повышенным спросом среди ценителей естественного вкуса. Он создан для тех, кто стремится к новым впечатлениям и не боится выйти за рамки привычного.<p> "
+    },
+    {
+      "id": 6,
+      "img": "./images/PITBULL.png",
+      "title": "PITBULL",
+      "price": 440,
+      "productOptionImage": ["./images/PITBULL.png", "./images/PITBULL.png", "./images/PITBULL.png"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "Гранат мята MINI 10гр" },
+        { "id": 2, "type": "Арбуз мята MINI 10гр" },
+        { "id": 3, "type": "Малина мята MINI 10гр" },
+        { "id": 4, "type": "Мята MINI 10гр" },
+        { "id": 5, "type": "Лайм мята MINI 10гр" },
+        { "id": 6, "type": "Дыня мята SLIM 13гр" },
+        { "id": 7, "type": "Персик мята SLIM 13гр" },
+        { "id": 8, "type": "Мята SLIM 13гр" },
+        { "id": 9, "type": "Лимонад мята SLIM 13гр" },
+        { "id": 10, "type": "Вишня мята SLIM 13гр" },
+        { "id": 11, "type": "Сладкая мята MINI 13гр" }
+      ],
+      "moreDetails": "<span>PITBULL</span> имеет яркую вкусопередачу и ненавязчивый аромат. Этот продукт создан для любителей простого использования и приятного послевкусия. Лучшее качество за свои деньги.<p> "
+    },
+    {
+      "id": 7,
+      "img": "./images/ADMIRAL.jpg",
+      "title": "ADMIRAL",
+      "price": 450,
+      "productOptionImage": ["./images/ADMIRAL.jpg", "./images/ADMIRAL.jpg", "./images/ADMIRAL.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "Мята STRONG SLIM" },
+        { "id": 2, "type": "Кола STRONG SLIM" },
+        { "id": 3, "type": "Жвачка STRONG SLIM" },
+        { "id": 4, "type": "Вишня STRONG SLIM" },
+        { "id": 5, "type": "Малина STRONG SLIM" },
+        { "id": 6, "type": "Мята STANDART STRONG" },
+        { "id": 7, "type": "Ананас STANDART STRONG" },
+        { "id": 8, "type": "Лесные ягоды STANDART STRONG" },
+        { "id": 9, "type": "Благородный табак STANDART STRONG" },
+        { "id": 10, "type": "Виноград STANDART STRONG" },
+        { "id": 11, "type": "Мята LITE SLIM" },
+        { "id": 12, "type": "Кола LITE SLIM" },
+        { "id": 13, "type": "Жвачка LITE SLIM" },
+        { "id": 14, "type": "Вишня LITE SLIM" },
+        { "id": 15, "type": "Малина LITE SLIM" }
+      ],
+      "moreDetails": "<span>ADMIRAL</span> — это достаточно крепкий табачный продукт .Самый слабый продукт серии имеет крепость 24 мг/г, а самые крепкие —43 мг/г. Поэтому такой жевательный табак подходит только для опытных ценителей снюса.<p> "
+    },
+    {
+      "id": 8,
+      "img": "./images/ICEBERG.jpg",
+      "title": "ICEBERG",
+      "price": 260,
+      "productOptionImage": ["./images/ICEBERG.jpg", "./images/ICEBERG.jpg", "./images/ICEBERG.jpg"],
+
+      "typeOfProduct": [
+        { "id": 1, "type": "Банан" },
+        { "id": 2, "type": "Малина" },
+        { "id": 3, "type": "Энергетик" },
+        { "id": 4, "type": "Зеленое Яблоко" },
+        { "id": 5, "type": "Оригинал" },
+        { "id": 6, "type": "Cold Dry" }
+      ],
+      "moreDetails": "<span>ICEBERG</span> — это достаточно крепкий табачный продукт .Самый слабый продукт серии имеет крепость 24 мг/г, а самые крепкие —43 мг/г. Поэтому такой жевательный табак подходит только для опытных ценителей снюса.<p> "
+    }
+    ],
+  "iqos": [
+    {
+      "id": 1,
+      "img": "./images/ILUMA1.jpg",
+      "title": "IQOS Iluma",
+      "price": 7200,
+      "productOptionImage": ["./images/ILUMA1.jpg", "./images/ILUMA1.jpg", "./images/ILUMA1.jpg"],
+      "typeOfProduct": [ {"id": 1, "type": "IQOS Iluma"}],
+      "moreDetails": "<span>IQOS Iluma</span> является 4 поколением устройств IQOS. Линейка была выпущена с использованием новой технологии Smart Core Induction System, которая нагревает специальные табачные стики Terea изнутри путем индукционного магнитного поля. В новой линейки отсутствует лезвие нагрева в держателе. Также присутствует функция определения стика и автоматический запуск устройства.<p> "
+    },
+    {
+      "id": 2,
+      "img": "./images/ILUMA2.jpg",
+      "title": "IQOS Iluma Prime",
+      "price": 12500,
+      "productOptionImage": ["./images/ILUMA2.jpg", "./images/ILUMA2.jpg", "./images/ILUMA2.jpg"],
+      "typeOfProduct": [ {"id": 1, "type": "IQOS Iluma Prime"}],
+      "moreDetails": "<span>IQOS Iluma Prime </span> имеет ряд преимуществ по сравнению с другими моделями IQOS. Например, больше не будет неприятной проблемы, когда лезвие плохо входит в стик, так как оно отсутствует.<p> "
+    }
+  ],
+  "sticks": [
+    {
+      "id": 1,
+      "img": "./images/terea.jpg",
+      "title": "TEREA",
+      "price": 200,
+      "productOptionImage": ["./images/terea.jpg", "./images/terea.jpg", "./images/terea.jpg"],
+      "typeOfProduct": [
+        { "id": 1, "type": "Purple wave" },
+        { "id": 2, "type": "Amber" },
+        { "id": 3, "type": "Turquoise" },
+        { "id": 4, "type": "Green Zing" },
+        { "id": 4, "type": "Silver" },
+        { "id": 4, "type": "Yellow" },
+        { "id": 4, "type": "Bronze" },
+        { "id": 4, "type": "Summer" },
+        { "id": 4, "type": "Rubby" }
+      ],
+      "moreDetails": "<span>Стики Terea</span> полностью запечатаны и не имеют открытого доступа к табаку, что позволяет не чистить устройство, а процесс стал более удобным и приятным. Лезвие, которое раньше было в IQOS, теперь встроено в каждый стик Terea, что позволяет нагревать стик изнутри.<span> IQOS</span> является эталоном качества среди крепкого жевательного табака. Бренд тщательно следит за качеством своейпродукции: только сырье высокого сорта отправляется в производство,а обработка проходит по шведским стандартам.></p><p> <span> IQOS</span> выпускает одни из лучших стиков для своих устройств. Вкусопередача и технологии с каждым годом завоевывают сердца новых клиентов.</p> "
+    }
+  ]
+}
