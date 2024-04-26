@@ -7,6 +7,19 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2Ces2020%2Ces2021%2Ces2022%2Ces5%2Ces6%2Ces7"></script>
     <link rel="stylesheet" href="./css/styles1.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script>
+      // Загрузка данных из JSON файла
+      fetch('keywords.json')
+          .then(response => response.json())
+          .then(data => {
+              const keywords = data.keywords.join(', '); // Преобразование массива ключевых слов в строку
+              const metaKeywords = document.createElement('meta');
+              metaKeywords.name = 'keywords';
+              metaKeywords.content = keywords;
+              document.head.appendChild(metaKeywords);
+          })
+          .catch(error => console.error('Ошибка загрузки ключевых слов:', error));
+  </script>
   </head>
   <body>
     <header>
