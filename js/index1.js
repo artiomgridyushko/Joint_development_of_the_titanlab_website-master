@@ -3,12 +3,17 @@ function sendFormData() {
   var phone = document.querySelector('input[name="phone"]').value;
   var telegram = document.querySelector('input[name="telegram"]').value;
 
-  if (name && phone && telegram) {
-    var products = JSON.parse(localStorage.getItem('productData'));
+  var products = JSON.parse(localStorage.getItem('productData'));
 
-    var productsMessage = '';
+
+  if (!telegram.startsWith('@')) {
+    alert('Телеграм должен начинаться с символа @.');
+    return;
+  }
+
+  if (name && telegram) {
     if (products && products.length > 0) {
-      productsMessage += 'Товары в корзине:\n\n';
+      var productsMessage = 'Товары в корзине:\n\n';
       var totalPrice = 0;
       products.forEach(function (product) {
         productsMessage += 'Название: ' + product.title + '\n';
@@ -21,42 +26,43 @@ function sendFormData() {
         productsMessage += '\n';
       });
       productsMessage += 'Общая сумма заказа: ' + totalPrice + '\n';
+
+      var message = 'Новая заявка!\n\n';
+      message += 'Имя: ' + name + '\n';
+      if (phone) {
+        message += 'Номер телефона: ' + phone + '\n';
+      }
+      message += 'Телеграм: ' + telegram + '\n\n';
+      message += productsMessage;
+
+      var token = '7110479734:AAFDVUnl4ElCNha1986QBps_0GMMT-TGWo8';
+      var chatId = '-1002114939309';
+
+      var url =
+        'https://api.telegram.org/bot' +
+        token +
+        '/sendMessage?chat_id=' +
+        chatId +
+        '&text=' +
+        encodeURIComponent(message);
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          console.log(data);
+          alert('Заявка успешно отправлена в чат!');
+          localStorage.removeItem('productData');
+          location.reload();
+        })
+        .catch((error) => {
+          console.error('Ошибка:', error);
+          alert('Произошла ошибка при отправке заявки.');
+        });
     } else {
-      productsMessage = 'В корзине нет товаров.';
+      alert('В корзине нет товаров. Пожалуйста, добавьте товары в корзину перед отправкой заявки.');
     }
-
-    var message = 'Новая заявка!\n\n';
-    message += 'Имя: ' + name + '\n';
-    message += 'Номер телефона: ' + phone + '\n';
-    message += 'Телеграм: ' + telegram + '\n\n';
-    message += productsMessage;
-
-    var token = '7110479734:AAFDVUnl4ElCNha1986QBps_0GMMT-TGWo8';
-
-    var chatId = '-1002114939309';
-
-    var url =
-      'https://api.telegram.org/bot' +
-      token +
-      '/sendMessage?chat_id=' +
-      chatId +
-      '&text=' +
-      encodeURIComponent(message);
-
-    fetch(url)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        alert('Заявка успешно отправлена в чат!');
-        localStorage.removeItem('productData');
-        location.reload();
-      })
-      .catch((error) => {
-        console.error('Ошибка:', error);
-        alert('Произошла ошибка при отправке заявки.');
-      });
   } else {
-    alert('Пожалуйста, заполните все поля формы.');
+    alert('Пожалуйста, заполните все обязательные поля формы.');
   }
 }
 const basketCount = document.querySelector('#cart');
